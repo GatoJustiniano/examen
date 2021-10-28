@@ -2,7 +2,8 @@
 
 ## Acerca del repositorio
 
-Este repositorio está en uso para el seguimiento del tutorial de Laravel + Vue
+Este repositorio está en uso para resolver el examen parcial 1 de IS1, 
+partiendo de la base Laravel + Vue
 Centrado en Laravel 8 como framework
 Vue.js como frontend 
 SGBD DBMaria 

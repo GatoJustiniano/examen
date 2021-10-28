@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset("css/app.css") }}">
-    <title>Módulo Web</title>
+    <title>Bienvenido a diagramador de Modelo C4</title>
 </head>
-    <body>
+    <body class="">
         <div id="app">
             
             @include('web.partials.nav-header-main')

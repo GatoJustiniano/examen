@@ -29,9 +29,6 @@ Route::post('dashboard/post/content_image', [PostController::class, 'contentImag
 Route::resource('dashboard/category', CategoryController::class);
 Route::resource('dashboard/user', UserController::class);
 
-Route::get('/detail/{id}', [WebController::class, 'detail']);
-Route::get('/post-category/{id}', [WebController::class, 'post_category']);
-
 Route::get('/contact', [WebController::class, 'contact']);
 
 Auth::routes();
@@ -39,4 +36,3 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/', [WebController::class, 'index'])->name('index');
-Route::get('/categories', [WebController::class, 'index'])->name('index');
