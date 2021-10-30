@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Sección ADM ')
+@section('title', 'Home ' . ' | Modelo C4')
 
 @section('estilo')
 <style>
@@ -101,8 +101,21 @@
             <li>
                 <a class="nav-link" href="#">Proyectos</a>
                 <ul class="nav flex-column">
-                    <li><a class="nav-pills" href="#">Categoría </a></li>
-                    <li><a class="nav-pills" href="#">Sub Categoría </a></li>
+                    <li><a class="nav-pills" href="#">Gestionar Proyectos </a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="nav-link" href="#">Dibujar</a>
+                <ul class="nav flex-column">
+                    <li><a class="nav-pills" href="#">Diagramas </a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="nav-link" href="#">Tutorial</a>
+                <ul class="nav flex-column">
+                    <li><a class="nav-pills" href="#">Manual de Usuarios </a></li>
+                    <li><a class="nav-pills" href="#">Videotutoriales</a></li>
+                    <li><a class="nav-pills" href="#">Hipertextos </a></li>
                 </ul>
             </li>
             <li>

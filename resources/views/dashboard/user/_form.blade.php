@@ -22,6 +22,6 @@
     </div>
 @endif
 
-<input type="submit" value="Enviar">
+<input type="submit" value="Enviar" class="btn btn-success btn-lg ">
 
 

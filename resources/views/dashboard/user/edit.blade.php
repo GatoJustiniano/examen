@@ -4,6 +4,7 @@
 @section('contenido-central')
 
     @include('dashboard.partials.validation-error')
+    @include('web.partials.btn-volver')
 
     <form action="{{ route('user.update',$user->id) }}" method="POST">
         @method('PUT')

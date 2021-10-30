@@ -5,6 +5,9 @@
 @section('contenido-central')
 
     @include('dashboard.partials.validation-error')
+    
+    @include('web.partials.btn-volver')
+
 
     <form action="{{ route('user.store') }}" method="POST">
     
