@@ -11,7 +11,7 @@
         </p>
         <div class=" ">
             <a data-link-as-button="true" class=""
-                href="#"
+                href="{{ route('register') }}"
                 type="button">Regístrate gratis
             </a>
         </div>

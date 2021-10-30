@@ -1,8 +1,10 @@
 @extends('home')
 
+@section('title', 'Usuario ' .$user->name . ' | Modelo C4')
+
 @section('contenido-central')
 
-@include('dashboard.partials.validation-error')
+    @include('dashboard.partials.validation-error')
 
     <form action="{{ route('user.store') }}" method="POST">
     

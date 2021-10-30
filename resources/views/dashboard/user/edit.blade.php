@@ -1,8 +1,9 @@
 @extends('home')
+@section('title', 'Editar usuario' .' | Modelo C4')
 
 @section('contenido-central')
 
-@include('dashboard.partials.validation-error')
+    @include('dashboard.partials.validation-error')
 
     <form action="{{ route('user.update',$user->id) }}" method="POST">
         @method('PUT')

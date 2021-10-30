@@ -7,7 +7,10 @@
 <div class="wrap">
     <h1>Error 403</h1>
     <p>La página que solicitó no puede ser mostrada por falta de autorización. 
-        <a href="{{ url()->previous() }}">Volver</a> 
+        <a href="{{ url()->previous() }}">
+            <i class="fa fa-arrow-left"></i>
+            Volver
+        </a>  
     </p>
     <p>Lo que puedes hacer:</p>
         <ul>

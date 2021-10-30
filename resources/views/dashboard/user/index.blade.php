@@ -1,5 +1,7 @@
 @extends('home')
 
+@section('title', 'Lista de Usuarios' . ' | Modelo C4')
+
 @section('contenido-central')
 
     <a class="btn btn-success mt-3 mb-3" href="{{ route('user.create') }}">
@@ -7,7 +9,7 @@
     </a>
 
 
-    <table class="table table-striped">
+    <table class="table table-striped table-hover">
         <thead>
             <tr>
             <th scope="col">id</th>
@@ -17,7 +19,7 @@
             <th scope="col">Rol</th>
             <th scope="col">Actualización</th>
             <th scope="col">Creación</th>
-            <th colspan="3">&nbsp;</th>
+            <th colspan="3">&nbsp;Acciones</th>
             </tr>
         </thead>
         <tbody>
@@ -29,16 +31,16 @@
                 <td>{{ $user->email }}</td>
                 <td>{{ $user->rol->key }}</td>
                 <td>{{ $user->created_at->format('Y-m-d') }}</td>
-                <td>{{ $user->updated_at->format('Y-M-d') }}</td>
+                <td>{{ $user->updated_at->format('Y-m-d') }}</td>
                 
-                <td width="10px">
+                <td style="padding: 0.75rem 3px" >
                     <a href="{{ route('user.show',$user->id) }}" class="btn btn-primary">Ver</a>
                 </td>
-                <td width="10px">
+                <td style="padding: 0.75rem 3px">
                     <a href="{{ route('user.edit',$user->id) }}" class="btn btn-primary">Editar</a>
                 </td>
                 
-                <td width="10px">
+                <td style="padding: 0.75rem 3px">
                     <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#deleteModal"
                         data-id="{{ $user->id }}">
                         Eliminar

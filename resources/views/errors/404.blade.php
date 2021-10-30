@@ -7,7 +7,10 @@
 <div class="wrap">
     <h1>Oh! Error 404</h1>
     <p>Estás en el medio de la nada. La página que solicitó se movió o no existe. 
-        <a href="{{ url()->previous() }}">Volver</a> 
+        <a href="{{ url()->previous() }}">
+            <i class="fa fa-arrow-left"></i>
+            Volver
+        </a>  
     </p>
     <p>Lo que puedes hacer:</p>
         <ul>
