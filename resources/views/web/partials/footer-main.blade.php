@@ -65,7 +65,7 @@
 <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © {{date('Y')}} Copyright:
     <a class="text-white" href="/">Examen </a>
-    <a class="text-white" href="#">Acerca de</a>
+    <a class="text-white" href="{{ url('about-us') }}">Acerca de</a>
 </div>
 <!-- Copyright -->
 </footer>

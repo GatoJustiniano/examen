@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset("css/app.css") }}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
-    <title>Bienvenido a diagramador de Modelo C4</title>
+
+    <title>@yield('title', 'Bienvenido a diagramador de Modelo C4')</title>
 </head>
     <body class="">
         <div id="app">

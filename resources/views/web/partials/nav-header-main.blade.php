@@ -11,7 +11,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
-                <a href="/" class="nav-link text-white" >Home</a>
+                <a href="/home" class="nav-link text-white" >Home</a>
             </li>
             <li class="nav-item dropdown">
                 <a href="/categories" class="nav-link text-white" >Categorías</a>

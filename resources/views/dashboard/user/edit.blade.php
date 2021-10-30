@@ -1,6 +1,6 @@
-@extends('dashboard.master')
+@extends('home')
 
-@section('content')
+@section('contenido-central')
 
 @include('dashboard.partials.validation-error')
 

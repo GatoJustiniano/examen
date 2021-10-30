@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>@yield('title', config('app.name'))</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -18,7 +18,9 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @yield('estilo')
 </head>
+
 <body style="background-color: rgb(21, 32, 43); scrollbar-color: rgb(107, 125, 140) rgb(25, 39, 52);">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
@@ -75,9 +77,9 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <div class="">
             @yield('content')
-        </main>
+        </div>
     </div>
 </body>
 </html>

@@ -17,7 +17,7 @@ use App\Http\Controllers\dashboard\CategoryController;
 |
 */
 
-
+Route::view('/about-us', 'about-us');
 
 
 Route::resource('dashboard/post', PostController::class);
