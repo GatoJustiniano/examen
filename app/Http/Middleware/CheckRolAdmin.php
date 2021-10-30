@@ -19,6 +19,6 @@ class CheckRolAdmin
         if (auth()->user()->rol->key == 'admin') {
             return $next($request);
         }
-        return redirect('/');
+        return abort(401);
     }
 }

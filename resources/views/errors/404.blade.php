@@ -18,6 +18,9 @@
         font: 1em "Hind", Arial, sans-serif !important;
         line-height: 1.5 !important;
     }
+    .max-w-xl {
+        max-width: 100%;
+    }
     .code {
         border-right: 2px solid;
         font-size: 16px !important;
@@ -263,11 +266,14 @@
 
 <div class="wrap">
     <h1>Oh! Error 404</h1>
-    <p>Estás en el medio de la nada. La página que solicitó se movió o no existe.</p>
+    <p>Estás en el medio de la nada. La página que solicitó se movió o no existe. 
+        <a href="{{ url()->previous() }}">Volver</a> 
+    </p>
     <p>Lo que puedes hacer:</p>
         <ul>
             <li><a href="/">Inicio</a> Regresa al página principal.</li>
-            <li><a href="about-us">Contacto</a> para mí si crees que esto sucedió por error.</li>
+            <li><a href="/home">Tablero</a> Regresa al tablero.</li>
+            <li><a href="{{ url('about-us') }}">Contacto</a> para mí si crees que esto sucedió por error.</li>
         </ul>
     
 </div>

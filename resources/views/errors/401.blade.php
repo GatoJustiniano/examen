@@ -265,7 +265,7 @@
 </script>
 
 <div class="wrap">
-    <h1>Error 403</h1>
+    <h1>Error 401</h1>
     <p>La página que solicitó no puede ser mostrada por falta de autorización. 
         <a href="{{ url()->previous() }}">Volver</a> 
     </p>
