@@ -36,3 +36,5 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/', [WebController::class, 'index'])->name('index');
+
+Route::get('/', [WebController::class, 'diagrama'])->name('diagrama'); //mostrar diagrama

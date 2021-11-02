@@ -108,6 +108,7 @@
                 <a class="nav-link" href="#">Dibujar</a>
                 <ul class="nav flex-column">
                     <li><a class="nav-pills" href="#">Diagramas </a></li>
+                    <li><a class="nav-pills" href="{{ route('diagrama') }}">Crear Diagramas </a></li>
                 </ul>
             </li>
             <li>
