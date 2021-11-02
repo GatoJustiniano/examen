@@ -37,4 +37,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/', [WebController::class, 'index'])->name('index');
 
-Route::get('/', [WebController::class, 'diagrama'])->name('diagrama'); //mostrar diagrama
+Route::get('/diagrama-modelo-c4', [WebController::class, 'diagrama'])->name('diagrama'); //mostrar diagrama
