@@ -5,7 +5,8 @@
 Este repositorio está en uso para resolver el examen parcial 1 de IS1, 
 partiendo de la base Laravel + Vue
 Centrado en Laravel 8 como framework
-Vue.js como frontend 
+Centrado en componentes DiagramEditor.prototype.drawDomain = 'https://embed.diagrams.net/'
+
 SGBD DBMaria 
 Laragon como servidor
 
