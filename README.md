@@ -7,6 +7,8 @@ partiendo de la base Laravel + Vue
 Centrado en Laravel 8 como framework
 Centrado en componentes DiagramEditor.prototype.drawDomain = 'https://embed.diagrams.net/'
 
+Y debe dibujar el modelo c4 como artefacto
+
 SGBD DBMaria 
 Laragon como servidor
 
