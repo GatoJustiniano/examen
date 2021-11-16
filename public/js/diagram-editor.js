@@ -234,7 +234,7 @@ DiagramEditor.prototype.getFrameStyle = function () {
  * Returns the URL for the iframe.
  */
 DiagramEditor.prototype.getFrameUrl = function () {
-    var url = this.drawDomain + '?proto=json&lang=es&libs=c4';
+    var url = this.drawDomain + '?proto=json&spin=1&lang=es&libs=c4';
 
     if (this.ui != null) {
         url += '&ui=' + this.ui;

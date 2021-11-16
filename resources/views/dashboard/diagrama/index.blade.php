@@ -9,7 +9,7 @@
 
         <div class="row mt-2">
             <div class="col-2">
-                Escoge la interfaz de usuario <b>Minimal</b> en sus dos modos:
+                Interfaz <b>Minimal</b>, selecciona el modo que prefieras:
             </div>
             <div class="col">
                 <img src="img\minimal-modo-claro.png" 
@@ -28,7 +28,7 @@
         </div>
         <div class="row mt-4">
             <div class="col-2">
-                Escoge la interfaz de usuario <b>Sketch</b>  en sus dos modos:
+                Interfaz de usuario <b>Sketch</b>, especial para cuando se desea dibujar, presentada en sus dos modos:
             </div>
             <div class="col">
                 <img src="img\sketch-modo-claro.png" 
